@@ -67,10 +67,10 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Information")
-        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835479345168404/kanna-transparent-1.png')
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716842894404616312/kanna-transparent-png-12.png')
         .addField("Devices","📱 Phone\n 💻 Laptop\n 🖥️ Desktop", true)
         .addField("Consoles",":one: Xbox\n :two: PS4\n :three: Nintendo", true)
-        .addField("Sexuality",":WholesomeCheezue: Straight\n :WholesomeCheezie: LGTBQ+", true)
+        .addField("Sexuality","<:WholesomeCheezue:715703014018646027> Straight\n <:WholesomeCheezie:715701681500848211> LGTBQ+", true)
         message.channel.send({embed: Embed});}
 
 });
