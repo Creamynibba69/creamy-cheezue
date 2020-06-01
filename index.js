@@ -36,7 +36,7 @@ client.on('message', message => {
         message.channel.send({embed: avatar});}
     
     //embed 1
-    if (message.content.startsWith(`${prefix}1embed`)){
+    if (message.content.startsWith(`${prefix}13232389235237embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
@@ -45,7 +45,7 @@ client.on('message', message => {
         message.channel.send({embed: Embed});}
     
     //embed 2
-    if (message.content.startsWith(`${prefix}1embed`)){
+    if (message.content.startsWith(`${prefix}13232389235237embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Weeb")
@@ -54,7 +54,7 @@ client.on('message', message => {
         message.channel.send({embed: Embed});}
 
     //embed 3
-    if (message.content.startsWith(`${prefix}1embed`)){
+    if (message.content.startsWith(`${prefix}13232389235237embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Gender")
@@ -63,7 +63,7 @@ client.on('message', message => {
         message.channel.send({embed: Embed});}
 
     //embed 4
-    if (message.content.startsWith(`${prefix}1embed`)){
+    if (message.content.startsWith(`${prefix}13232389235237embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Information")
@@ -75,7 +75,7 @@ client.on('message', message => {
         message.channel.send({embed: Embed});}
 
     //embed 5
-    if (message.content.startsWith(`${prefix}1embed`)){
+    if (message.content.startsWith(`${prefix}13232389235237embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("etc.")
@@ -85,7 +85,7 @@ client.on('message', message => {
         message.channel.send({embed: Embed});}
 
     //embed 6
-    if (message.content.startsWith(`${prefix}1embed`)){
+    if (message.content.startsWith(`${prefix}13232389235237embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Games")
