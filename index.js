@@ -45,7 +45,8 @@ client.on('message', message => {
 
 });
 
-client.login(process.env.token);
 client.on('ready', function (){
     console.log(`${bot.user.username} is online!`);
 });
+
+client.login(process.env.token);
