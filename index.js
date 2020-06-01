@@ -36,11 +36,11 @@ client.on('message', message => {
         message.channel.send({embed: avatar});}
     
     //embed 1
-    if (message.content.startsWith(`${prefix}embed1`)){
+    if (message.content.startsWith(`${prefix}1embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
-        .addField("henlo",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
+        .addField("",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
         message.channel.send({embed: Embed});}
 
 });
