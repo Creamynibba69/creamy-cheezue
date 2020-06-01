@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const { prefix } = require('./config.json');
 
-const creamy = (message, cmdName) => message.content.toLowerCase().startsWith(`${prefix}` + cmdName);
-
 client.on('message', function(message) {
 
     let replies = ["Hey!", "Hi!", "Yo!", "Konichiwa!"];
@@ -13,14 +11,14 @@ client.on('message', function(message) {
     let result1 = Math.floor((Math.random() * replies1.length));
 
     //Messages
-    if (creamy(message, "hello"))
+    if (message.content.startsWith(`${prefix}hello`))
         message.channel.send(replies[result]);
     
-    if (creamy(message, "goodbye"))
+    if (message.content.startsWith(`${prefix}goodbye`))
         message.channel.send(replies1[result1]);
 
     //Embeds
-    if (creamy(message, "embed")){
+    if (message.content.startsWith(`${prefix}embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Henlo")
@@ -38,7 +36,7 @@ client.on('message', function(message) {
         message.channel.send({embed: avatar});}
     
     //embed 1
-    if (creamy(message, "embed1")){
+    if (message.content.startsWith(`${prefix}embed1`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
