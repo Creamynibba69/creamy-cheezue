@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const { prefix } = require('./config.json');
 
-client.on('message', function(message) {
+client.on('message', message => {
 
     let replies = ["Hey!", "Hi!", "Yo!", "Konichiwa!"];
     let result = Math.floor((Math.random() * replies.length));
