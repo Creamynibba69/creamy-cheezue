@@ -78,7 +78,7 @@ client.on('message', message => {
     if (message.content.startsWith(`${prefix}1embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
-        .setTitle("etc")
+        .setTitle("etc.")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716872348661186580/dcnpmxl-1af3bb4b-e26a-4974-8f2b-55d7ae17a28a.png')
         .addField("Notification",":bell: Get notified from our streams when we go live!", false)
         .addField("Channels","<:02Smug:696274816746913902> This will unhide the naughty channels. Don't ask why I have this.. :thinking:", false);
