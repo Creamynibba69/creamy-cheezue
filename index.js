@@ -40,7 +40,7 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
-        .addField("",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
+        .addField("henlo",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
         message.channel.send({embed: Embed});}
 
 });
