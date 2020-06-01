@@ -38,11 +38,11 @@ client.on('message', function(message) {
         message.channel.send({embed: avatar});}
     
     //embed 1
-    if (creamy(message, "embed")){
+    if (creamy(message, "embed1")){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
-        .setTitle("Color")
-        .addField("",":blue_circle: Bluen/n Noot Noot!", true);
+        .setTitle("Colors")
+        .addField("",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
         message.channel.send({embed: Embed});}
 
 });
