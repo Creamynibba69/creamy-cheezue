@@ -43,6 +43,33 @@ client.on('message', message => {
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716834141118791730/EK_SiCJUEAAQisx.png')
         .addField("roles",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
         message.channel.send({embed: Embed});}
+    
+    //embed 2
+    if (message.content.startsWith(`${prefix}2embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("Weeb")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835214709751868/316447769170211.png')
+        .addField("roles","<:AwOo:696274819314090016> Greater Weeb\n <:KannaWant:696156418629304350> Normal Weeb\n <:FlandreConcerned:696274823768440853> Lesser Weeb", true);
+        message.channel.send({embed: Embed});}
+
+    //embed 3
+    if (message.content.startsWith(`${prefix}3embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("Gender")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835479345168404/kanna-transparent-1.png')
+        .addField("roles",":male_sign: Man\n :Female_sign: Woman", true);
+        message.channel.send({embed: Embed});}
+
+    //embed 4
+    if (message.content.startsWith(`${prefix}4embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("Devices")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835479345168404/kanna-transparent-1.png')
+        .addField("roles","wqewe\n Woman", true);
+        message.channel.send({embed: Embed});}
 
 });
 
