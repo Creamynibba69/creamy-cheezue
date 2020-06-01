@@ -70,7 +70,17 @@ client.on('message', message => {
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716842894404616312/kanna-transparent-png-12.png')
         .addField("Devices","📱 Phone\n💻 Laptop\n🖥️ Desktop", true)
         .addField("Consoles",":one: Xbox\n:two: PS4\n:three: Nintendo", true)
-        .addField("Sexuality",":sparkles: Straight\n<:LGBTQ:716864731960442972> LGBTQ+", true)
+        .addField("Sexuality","<:WholesomeCheezie:715701681500848211> Straight\n<:LGBTQ:716864731960442972> LGBTQ+", true)
+        message.channel.send({embed: Embed});}
+
+    //embed 5
+    if (message.content.startsWith(`${prefix}4embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("etc")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716842894404616312/kanna-transparent-png-12.png')
+        .addField("Notification",":bell: Get notified from our streams when we go live!", false)
+        .addField("Channels","<:02Smug:696274816746913902> This will unhide the naughty channels. Don't ask why I have this.. :thinking:", false);
         message.channel.send({embed: Embed});}
 
 });
