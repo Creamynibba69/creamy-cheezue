@@ -40,6 +40,7 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716834141118791730/EK_SiCJUEAAQisx.png')
         .addField("roles",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
         message.channel.send({embed: Embed});}
 
