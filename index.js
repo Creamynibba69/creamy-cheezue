@@ -41,7 +41,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Colors")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716834141118791730/EK_SiCJUEAAQisx.png')
-        .addField("roles",":blue_circle: Bluen\n :green_circle: Green\n :red_circle: Red", true);
+        .addField("roles",":blue_circle: Bluen\n:green_circle: Green\n:red_circle: Red", true);
         message.channel.send({embed: Embed});}
     
     //embed 2
@@ -50,7 +50,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Weeb")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835214709751868/316447769170211.png')
-        .addField("roles","<:AwOo:696274819314090016> Greater Weeb\n <:KannaWant:696156418629304350> Normal Weeb\n <:FlandreConcerned:696274823768440853> Lesser Weeb", true);
+        .addField("roles","<:AwOo:696274819314090016> Greater Weeb\n<:KannaWant:696156418629304350>Normal Weeb\n<:FlandreConcerned:696274823768440853> Lesser Weeb", true);
         message.channel.send({embed: Embed});}
 
     //embed 3
@@ -59,7 +59,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Gender")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835479345168404/kanna-transparent-1.png')
-        .addField("roles",":male_sign: Man\n :female_sign: Woman", true);
+        .addField("roles",":male_sign: Man\n:female_sign: Woman", true);
         message.channel.send({embed: Embed});}
 
     //embed 4
@@ -68,9 +68,9 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Information")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716842894404616312/kanna-transparent-png-12.png')
-        .addField("Devices","📱 Phone\n 💻 Laptop\n 🖥️ Desktop", true)
-        .addField("Consoles",":one: Xbox\n :two: PS4\n :three: Nintendo", true)
-        .addField("Sexuality","<:WholesomeCheezue:715703014018646027> Straight\n <:WholesomeCheezie:715701681500848211> LGTBQ+", true)
+        .addField("Devices","📱 Phone\n💻 Laptop\n🖥️ Desktop", true)
+        .addField("Consoles",":one: Xbox\n:two: PS4\n:three: Nintendo", true)
+        .addField("Sexuality",":sparkles: Straight\n<:LGBTQ:716864731960442972> LGBTQ+", true)
         message.channel.send({embed: Embed});}
 
 });
