@@ -41,29 +41,29 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Colors")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716834141118791730/EK_SiCJUEAAQisx.png')
-        .addField("roles",":blue_circle: Bluen\n:green_circle: Green\n:red_circle: Red", true);
+        .addField("Roles",":blue_circle: Bluen\n:green_circle: Green\n:red_circle: Red", true);
         message.channel.send({embed: Embed});}
     
     //embed 2
-    if (message.content.startsWith(`${prefix}2embed`)){
+    if (message.content.startsWith(`${prefix}1embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Weeb")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835214709751868/316447769170211.png')
-        .addField("roles","<:AwOo:696274819314090016> Greater Weeb\n<:KannaWant:696156418629304350>Normal Weeb\n<:FlandreConcerned:696274823768440853> Lesser Weeb", true);
+        .addField("Roles","<:AwOo:696274819314090016> Greater Weeb\n<:KannaWant:696156418629304350>Normal Weeb\n<:FlandreConcerned:696274823768440853> Lesser Weeb", true);
         message.channel.send({embed: Embed});}
 
     //embed 3
-    if (message.content.startsWith(`${prefix}3embed`)){
+    if (message.content.startsWith(`${prefix}1embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Gender")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716835479345168404/kanna-transparent-1.png')
-        .addField("roles",":male_sign: Man\n:female_sign: Woman", true);
+        .addField("Roles",":male_sign: Man\n:female_sign: Woman", true);
         message.channel.send({embed: Embed});}
 
     //embed 4
-    if (message.content.startsWith(`${prefix}4embed`)){
+    if (message.content.startsWith(`${prefix}1embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Information")
@@ -71,18 +71,28 @@ client.on('message', message => {
         .addField("Devices","📱 Phone\n💻 Laptop\n🖥️ Desktop", true)
         .addField("Consoles",":one: Xbox\n:two: PS4\n:three: Nintendo", true)
         .addField("Sexuality","<:WholesomeCheezie:715701681500848211> Straight\n<:LGBTQ:716864731960442972> LGBTQ+", true)
+        .addField("I dunno", ":man_standing: Single?\n:couple: Taken?\n<:TachiSmile:696274819989241926> I luve my waifu")
         message.channel.send({embed: Embed});}
 
     //embed 5
-    if (message.content.startsWith(`${prefix}4embed`)){
+    if (message.content.startsWith(`${prefix}1embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("etc")
-        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716842894404616312/kanna-transparent-png-12.png')
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716872348661186580/dcnpmxl-1af3bb4b-e26a-4974-8f2b-55d7ae17a28a.png')
         .addField("Notification",":bell: Get notified from our streams when we go live!", false)
         .addField("Channels","<:02Smug:696274816746913902> This will unhide the naughty channels. Don't ask why I have this.. :thinking:", false);
         message.channel.send({embed: Embed});}
 
+    //embed 6
+    if (message.content.startsWith(`${prefix}1embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("Games")
+        .setThumbnail('https://cdn.discordapp.com/attachments/508173578911481886/716873273031262248/NicePng_got-png_2599797.png')
+        .addField("Roles",":one: Red Dead Redemption II\n:two: Minecraft Dungeons\n:three: Fortnite 🤡\n:four: Minecraft\n:five: VR Chat\n:six: Terraria\n:seven: GTA V\n:eight: Roblox\n:nine: CSGO", false);
+        message.channel.send({embed: Embed});}
+    
 });
 
 client.on('ready', function (){
