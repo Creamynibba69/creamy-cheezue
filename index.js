@@ -97,7 +97,7 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Hola")
-        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/717217060689805382/mp4.mp4')
+        .setImage('https://cdn.discordapp.com/attachments/706297283074850878/717217060689805382/mp4.mp4')
         .addField("Roles",":male_sign: Man\n:female_sign: Woman", true);
         message.channel.send({embed: Embed});}
     
