@@ -92,6 +92,15 @@ client.on('message', message => {
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716875504673882212/NicePng_got-png_2599797.png')
         .addField("Roles",":one: Red Dead Redemption II\n:two: Minecraft Dungeons\n:three: Fortnite 🤡\n:four: Minecraft\n:five: VR Chat\n:six: Terraria\n:seven: GTA V\n:eight: Roblox\n:nine: CSGO", false);
         message.channel.send({embed: Embed});}
+
+    if (message.content.startsWith(`${prefix}123embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("Hola")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/717217060689805382/mp4.mp4')
+        .addField("Roles",":male_sign: Man\n:female_sign: Woman", true);
+        message.channel.send({embed: Embed});}
+    }
     
 });
 
