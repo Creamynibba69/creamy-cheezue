@@ -93,12 +93,10 @@ client.on('message', message => {
         .addField("Roles",":one: Red Dead Redemption II\n:two: Minecraft Dungeons\n:three: Fortnite 🤡\n:four: Minecraft\n:five: VR Chat\n:six: Terraria\n:seven: GTA V\n:eight: Roblox\n:nine: CSGO", false);
         message.channel.send({embed: Embed});}
 
-    const attachments = new attachments('./images/kanan1.png');  
-
     if (message.content.startsWith(`${prefix}123embed`)){
         setColor(`#33FFAF`)
         .setTitle("extra roles")
-        .setThumbnail(attachments)
+        .setThumbnail({file: ["./images/kanna1.png"]})
         .addField("Roles", ":paintbrush: **Artist** This role will show that your an amazing artist!", true);
         message.channel.send({embed: Embed});}
     
