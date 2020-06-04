@@ -94,7 +94,8 @@ client.on('message', message => {
         message.channel.send({embed: Embed});}
 
     if (message.content.startsWith(`${prefix}123embed`)){
-        setColor(`#33FFAF`)
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
         .setTitle("extra roles")
         .attachFiles(attachment)
         .setThumbnail('attachment:./images/kanna1.png')
@@ -103,7 +104,7 @@ client.on('message', message => {
     
 });
 
-client.on('ready', function (){
+client.on("ready", function (){
     console.log(`${bot.user.username} is online!`);
 });
 
