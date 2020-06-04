@@ -97,8 +97,7 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("extra roles")
-        .attachFiles(attachment)
-        .setThumbnail('attachment:./images/kanna1.png')
+        .setThumbnail({files :['./images/kanna1.png']})
         .addField("Roles", ":paintbrush: **Artist** This role will show that your an amazing artist!", true);
         message.channel.send({embed: Embed});}
     
