@@ -96,7 +96,8 @@ client.on('message', message => {
     if (message.content.startsWith(`${prefix}123embed`)){
         setColor(`#33FFAF`)
         .setTitle("extra roles")
-        .setThumbnail({file: ["./images/kanna1.png"]})
+        .attachFiles(attachment)
+        .setThumbnail('attachment:./images/kanna1.png')
         .addField("Roles", ":paintbrush: **Artist** This role will show that your an amazing artist!", true);
         message.channel.send({embed: Embed});}
     
