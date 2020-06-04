@@ -30,7 +30,7 @@ client.on('message', message => {
         const member = message.mentions.users.first() || message.author;
         const imageURL = member.displayAvatarURL({format: 'png'})
         const avatar = new Discord.MessageEmbed()
-        .setTitle(`${member.tag}'s avatar`)
+        .setTitle(`${member.tag}'s beautiful avatar :D`)
         .setColor(`#33FFAF`)
         .setImage(`${imageURL}?size=2048`);
         message.channel.send({embed: avatar});}
@@ -93,12 +93,13 @@ client.on('message', message => {
         .addField("Roles",":one: Red Dead Redemption II\n:two: Minecraft Dungeons\n:three: Fortnite 🤡\n:four: Minecraft\n:five: VR Chat\n:six: Terraria\n:seven: GTA V\n:eight: Roblox\n:nine: CSGO", false);
         message.channel.send({embed: Embed});}
 
+    const attachments = new attachments('./images/kanan1.png');  
+
     if (message.content.startsWith(`${prefix}123embed`)){
-        let Embed = new Discord.MessageEmbed()
-        .setColor(`#33FFAF`)
-        .setTitle("Hola")
-        .setImage('https://cdn.discordapp.com/attachments/706297283074850878/717217060689805382/mp4.mp4')
-        .addField("Roles",":male_sign: Man\n:female_sign: Woman", true);
+        setColor(`#33FFAF`)
+        .setTitle("extra roles")
+        .setThumbnail(attachments)
+        .addField("Roles", ":paintbrush: **Artist** This role will show that your an amazing artist!", true);
         message.channel.send({embed: Embed});}
     
 });
