@@ -98,7 +98,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("extra roles")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/718379154109890560/kanna1.png')
-        .addField("Roles", ":paintbrush: **Artist**: This role will show that your an amazing artist!\n:notepad_spiral: **Theorist**: This role will allow you to type in <#716490303070142504> channel if you have a theory.\n", true);
+        .addField("Roles", ":paintbrush: **Artist**: This role will show that your an amazing artist! You can also send some of your amazing drawing in <#676623984103784448> channel.\n:notepad_spiral: **Theorist**: This role will allow you to type in <#716490303070142504> channel if you have a theory.\n", true);
         message.channel.send({embed: Embed});}
     
 });
