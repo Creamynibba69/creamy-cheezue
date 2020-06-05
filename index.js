@@ -106,7 +106,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Self Roles")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/718390626915188736/Penguin12435254664535.png')
-        .addField("Image", "If you reacted to some of this embedded messages you will be given a role heres an image of my account.", true);
+        .addField("Self Roles", "If you reacted to some of these embedded messages you will be given a role, here's an image of my account.", true);
         message.channel.send({embed: Embed});}
 
 });
