@@ -93,14 +93,22 @@ client.on('message', message => {
         .addField("Roles",":one: Red Dead Redemption II\n:two: Minecraft Dungeons\n:three: Fortnite 🤡\n:four: Minecraft\n:five: VR Chat\n:six: Terraria\n:seven: GTA V\n:eight: Roblox\n:nine: CSGO", false);
         message.channel.send({embed: Embed});}
 
-    if (message.content.startsWith(`${prefix}123embed`)){
+    if (message.content.startsWith(`${prefix}1eeeembed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("extra roles")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/718379154109890560/kanna1.png')
         .addField("Roles", ":paintbrush: **Artist**: This role will show that your an amazing artist! You can also send some of your amazing drawing in <#676623984103784448> channel.\n:notepad_spiral: **Theorist**: This role will allow you to type in <#716490303070142504> channel if you have a theory.\n", true);
         message.channel.send({embed: Embed});}
-    
+
+    if (message.content.startsWith(`${prefix}123embed`)){
+        let Embed = new Discord.MessageEmbed()
+        .setColor(`#33FFAF`)
+        .setTitle("Self Roles")
+        .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/718387778160820325/Penguin12435254664535.png')
+        .addField("Image", "If you reacted to some of this embedded messages you will be given a role heres an example of your account for our server.", true);
+        message.channel.send({embed: Embed});}
+
 });
 
 client.on("ready", function (){
