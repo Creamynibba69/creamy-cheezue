@@ -41,6 +41,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Colors")
         .attachFiles('./images/Hamster.gif')
+        .image('https://cdn.discordapp.com/attachments/668190855365918740/746211229290463313/Hamster.gif')
         .addField("Roles","Henlo", true);
         message.channel.send({embed: Embed});}
     
