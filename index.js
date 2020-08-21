@@ -40,7 +40,7 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
-        .attachFiles(./images/kanna.png)
+        .attachFiles(./images/kanna1.png)
         .addField("Roles","Henlo", true);
         message.channel.send({embed: Embed});}
     
