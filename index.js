@@ -42,7 +42,7 @@ client.on('message', message => {
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Y'all got any cheese?")
-        .setFiles('./images/Hamster.gif');
+        .Files('./images/Hamster.gif');
         message.channel.send({embed: Embed});}
     
     //embed 2
