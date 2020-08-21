@@ -35,14 +35,13 @@ client.on('message', message => {
         .setImage(`${imageURL}?size=2048`);
         message.channel.send({embed: avatar});}
     
-    //s
-    
     //embed 1
     if (message.content.startsWith(`${prefix}hamster pls`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Y'all got any cheese?")
-        .Files('./images/Hamster.gif');
+        .attachFiles(['./images/Hamster.gif'])
+        .setImage('attachment:Hamster.gif');
         message.channel.send({embed: Embed});}
     
     //embed 2
