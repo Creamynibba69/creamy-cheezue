@@ -36,12 +36,13 @@ client.on('message', message => {
         message.channel.send({embed: avatar});}
     
     //embed 1
-    if (message.content.startsWith(`${prefix}13232389235237embed`)){
+    if (message.content.startsWith(`${prefix}99999embed`)){
+        const attachment = new MessageAttachment ('https://tenor.com/view/kitten-kitty-cute-meow-gif-15654030');
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
         .setThumbnail('https://cdn.discordapp.com/attachments/706297283074850878/716834141118791730/EK_SiCJUEAAQisx.png')
-        .addField("Roles",":blue_circle: Bluen\n:green_circle: Green\n:red_circle: Red", true);
+        .addField("Roles","Henlo", true);
         message.channel.send({embed: Embed});}
     
     //embed 2
