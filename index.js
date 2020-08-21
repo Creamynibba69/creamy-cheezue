@@ -41,7 +41,7 @@ client.on('message', message => {
         .setColor(`#33FFAF`)
         .setTitle("Y'all got any cheese?")
         .attachFiles(['./images/Hamster.gif'])
-        .setImage('attachment:Hamster.gif');
+        .setImage('attachment://Hamster.gif');
         message.channel.send({embed: Embed});}
     
     //embed 2
