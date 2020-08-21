@@ -35,6 +35,8 @@ client.on('message', message => {
         .setImage(`${imageURL}?size=2048`);
         message.channel.send({embed: avatar});}
     
+    //s
+    
     //embed 1
     if (message.content.startsWith(`${prefix}hamster pls`)){
         let Embed = new Discord.MessageEmbed()
