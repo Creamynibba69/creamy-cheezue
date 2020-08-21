@@ -39,7 +39,7 @@ client.on('message', message => {
     if (message.content.startsWith(`${prefix}99999embed`)){
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
-        .setImage('https://cdn.discordapp.com/attachments/668190855365918740/746211229290463313/Hamster.gif', 100, 100)
+        .setImage('https://cdn.discordapp.com/attachments/668190855365918740/746211229290463313/Hamster.gif', 10, 10)
         .addField("Roles","Henlo", true);
         message.channel.send({embed: Embed});}
     
