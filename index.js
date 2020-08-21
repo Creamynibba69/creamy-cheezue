@@ -37,11 +37,10 @@ client.on('message', message => {
     
     //embed 1
     if (message.content.startsWith(`${prefix}99999embed`)){
-        const attachment = new MessageAttachment ('https://tenor.com/view/kitten-kitty-cute-meow-gif-15654030');
         let Embed = new Discord.MessageEmbed()
         .setColor(`#33FFAF`)
         .setTitle("Colors")
-        .setThumbnail attachment
+        .attachFiles(./images/kanna.png)
         .addField("Roles","Henlo", true);
         message.channel.send({embed: Embed});}
     
